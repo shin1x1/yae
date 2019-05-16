@@ -1,0 +1,9 @@
+anchors:
+  items:
+    - name: book
+      price: 100
+stocks:
+  - name: book
+    price: 100
+  - name: book
+    price: 200
