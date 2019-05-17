@@ -4,13 +4,13 @@ import (
 	"log"
 	"os"
 
-	"github.com/shin1x1/yamlfmt/handlers"
+	"github.com/shin1x1/yae/handlers"
 	"github.com/spf13/cobra"
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "yamlfmt [YAML file]",
-	Short: "yamlfmt is a YAML formatter",
+	Use:   "yae [YAML file]",
+	Short: "yae is a YAML formatter",
 	Args:  cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		filepath := args[0]

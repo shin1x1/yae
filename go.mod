@@ -1,4 +1,4 @@
-module github.com/shin1x1/yamlfmt
+module github.com/shin1x1/yae
 
 go 1.12
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/shin1x1/yamlfmt/cmd"
+	"github.com/shin1x1/yae/cmd"
 )
 
 func main() {

@@ -17,7 +17,7 @@ func TestYamlFormatter_Run(t *testing.T) {
 	}{
 		{
 			"test1",
-			fields{"./test1_with_anchor.yaml"},
+			fields{"./test1_actual.yaml"},
 			"./test1_expected.yaml",
 		},
 	}
