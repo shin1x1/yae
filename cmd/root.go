@@ -10,7 +10,7 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "yae [YAML file]",
-	Short: "yae is a YAML formatter",
+	Short: "yae is a YAML aliases expander",
 	Args:  cobra.MinimumNArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		filepath := args[0]
