@@ -1,0 +1,12 @@
+language: go
+
+go:
+  - 1.11.x
+  - 1.12.x
+  - master
+dist: xenial
+env: GO111MODULE=on
+install:
+  - echo $TRAVIS_GO_VERSION
+script:
+  - make ci
