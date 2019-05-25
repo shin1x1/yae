@@ -6,6 +6,8 @@ builds:
   - id: yae
     env:
       - CGO_ENABLED=0
+    ldflags:
+      - -s -w -X github.com/shin1x1/yae/version.version={{.Version}} -X github.com/shin1x1/yae/version.commit={{.Commit}}
     goos:
       - darwin
       - linux
